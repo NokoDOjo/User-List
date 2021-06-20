@@ -1,0 +1,115 @@
+
+.main-part {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(43, 42, 42, 0.5);
+}
+
+.navbar-collapse {
+  height: 40px;
+}
+
+.navbar-nav  {
+  flex-flow: row nowrap;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.user-card-img {
+  display: block;
+  width: 100%;
+  border-radius: 40%;
+  transition: all 0.4s;
+}
+
+.user-card-img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.btn-add-follow {
+  color: azure;
+  transition: all 0.4s;
+}
+
+.btn-add-follow-after {
+  color:rgb(250, 8, 8);
+  transition: all 0.4s;
+}
+
+
+.btn-add-follow:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  color:rgb(250, 8, 8)
+}
+
+
+em {
+  background-color: crimson;
+  color: azure;
+  width: 40px;
+  border-radius: 20%;
+}
+
+.status {
+  display: flex;
+
+  flex-flow: column wrap;
+  justify-content: space-around;
+  padding: 0px;
+}
+
+.viewers {
+  background-color: rgba(43, 42, 42, 0.5);
+  border: 1px solid rgb(248, 247, 247);
+  color: aliceblue;
+  text-align: center;
+  width: 60%;
+  border-radius: 10%;
+  padding: 2px;
+}
+
+.card {
+  background-color: rgb(176, 52, 233, 0.7);
+}
+
+.card-footer {
+  padding: 4px 8px;
+  background-color: rgb(29, 28, 28, 0.8);
+  height: 4rem;
+  color: aliceblue;
+  border-radius: 10%;
+}
+
+.page-link{
+  border-radius:5%;
+  color:blanchedalmond;
+  background-color: rgb(17, 17, 17, 0.7);
+}
+
+.info {
+  color:rgb(243, 240, 255);
+}
+
+.modal-body ul li {
+  list-style-type: none;
+}
+
+.modal-header .modal-footer{
+  background-color: rgba(12, 12, 12, 0.8);
+  color: aliceblue;
+}
+
+.modal-body {
+  background-color: rgba(231, 226, 231, 0.5);
+}
+
+#user-modal-image img {
+  border-radius: 50%;
+}
+
+
+
